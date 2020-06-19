@@ -7,7 +7,7 @@ const ProductSchema = new mongoose.Schema({
     price: Number
 });
 
-// constant
+// constants
 const ProductSchema;
 
 module.exports = mongoose.model('Product', ProductSchema);
